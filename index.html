@@ -120,7 +120,31 @@ body {
     <span data-sr='top wait 1.5s 90px'>!</span>
   </h1>
   <p data-sr='bottom wait 1.5s 90px'>Please check back with us in the near future for updates.</p>
-  <div class='social-media'>
+  
+<script>
+function getUrlVars() {
+ 
+    var vars = {};
+ 
+    var parts = .href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+ 
+        vars[key] = value;
+ 
+    });
+ 
+    return vars;
+ 
+}
+ 
+var url1 = getUrlVars()["share"];
+ 
+var mytext = getUrlVars()["text"];
+ 
+document.write(url1);
+ 
+    </script> 
+
+<div class='social-media'>
     <ul>
       <li data-sr='top wait 2.9s 190px'>
         <a href='https://www.facebook.com/oankoweb'>
